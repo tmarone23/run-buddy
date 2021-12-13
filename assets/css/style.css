@@ -77,9 +77,6 @@ section {
   background-position: center;
   position: relative;
 }
-/* Hero style ends */
-
-/* hero form style start */
 .hero-form {
   background-color: #fce138;
   padding: 20px;
@@ -90,7 +87,6 @@ section {
   bottom: 120px;
   right: 140px;
 }
-/* hero form style ends */
 
 .hero-form h3 {
   font-size: 24px;
@@ -100,3 +96,26 @@ section {
 .hero-form p {
   margin: 5px 0 15px 0;
 }
+
+.form-input {
+  border: 1px solid #024e76;
+  display: block;
+  padding: 7px 15px;
+  font-size: 16px;
+  color: #024e76;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.hero-form label {
+  margin: 0 5px;
+}
+
+.hero-form button {
+  background-color: #024e76;
+  color: #fce138;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+}
+/* Hero Styles End */
